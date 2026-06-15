@@ -1,6 +1,10 @@
 {
   "name": "@carlosburroughs/campaign-next-app-ui",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarlosBurrlos/campaign-next-app-ui.git"
+  },
   "exports": {
     ".": "./index.ts"
   },
