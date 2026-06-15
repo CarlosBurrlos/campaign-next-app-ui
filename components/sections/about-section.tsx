@@ -1,18 +1,18 @@
 "use client";
 
-import { useCampaign } from "../campaign-provider";
+import { useCampaign } from "@carlosburroughs/campaign-next-app-kit";
 import { ContentBlockRenderer } from "../content-block-renderer";
 import { EndorsementCard } from "../endorsement-card";
 import { FadeIn, FadeInStagger, FadeInItem } from "../fade-in";
-import { Card } from "../ui/card";
+import { Card } from "../../primitives/card";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 
-const Carousel = dynamic(() => import("../ui/carousel").then(m => m.Carousel), { ssr: false });
-const CarouselContent = dynamic(() => import("../ui/carousel").then(m => m.CarouselContent), { ssr: false });
-const CarouselItem = dynamic(() => import("../ui/carousel").then(m => m.CarouselItem), { ssr: false });
-const CarouselNext = dynamic(() => import("../ui/carousel").then(m => m.CarouselNext), { ssr: false });
-const CarouselPrevious = dynamic(() => import("../ui/carousel").then(m => m.CarouselPrevious), { ssr: false });
+const Carousel = dynamic(() => import("../../primitives/carousel").then(m => m.Carousel), { ssr: false });
+const CarouselContent = dynamic(() => import("../../primitives/carousel").then(m => m.CarouselContent), { ssr: false });
+const CarouselItem = dynamic(() => import("../../primitives/carousel").then(m => m.CarouselItem), { ssr: false });
+const CarouselNext = dynamic(() => import("../../primitives/carousel").then(m => m.CarouselNext), { ssr: false });
+const CarouselPrevious = dynamic(() => import("../../primitives/carousel").then(m => m.CarouselPrevious), { ssr: false });
 
 export function AboutSection() {
   const { campaign } = useCampaign();

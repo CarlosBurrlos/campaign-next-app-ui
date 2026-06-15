@@ -1,12 +1,10 @@
 "use client";
 
-import { useCampaign } from "../../components/campaign-provider";
-import { env } from "../../lib/env";
-import { useFormspree } from "../../hooks/use-formspree";
+import { useCampaign, env, useFormspree } from "@carlosburroughs/campaign-next-app-kit";
 import { ElectionCountdown } from "../../components/election-countdown";
-import { Button } from "../../components/ui/button";
-import { Input } from "../../components/ui/input";
-import { Separator } from "../../components/ui/separator";
+import { Button } from "../../primitives/button";
+import { Input } from "../../primitives/input";
+import { Separator } from "../../primitives/separator";
 import Image from "next/image";
 import { Facebook, HardHat } from "lucide-react";
 

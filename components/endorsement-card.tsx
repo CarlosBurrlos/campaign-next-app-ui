@@ -1,5 +1,5 @@
-import type { Endorsement } from "../content/types";
-import { Card, CardContent } from "./ui/card";
+import type { Endorsement } from "@carlosburroughs/campaign-next-app-kit";
+import { Card, CardContent } from "../primitives/card";
 import Image from "next/image";
 
 type Props = {

@@ -1,4 +1,4 @@
-import { Progress } from "./ui/progress";
+import { Progress } from "../primitives/progress";
 
 type Props = {
   label: string;

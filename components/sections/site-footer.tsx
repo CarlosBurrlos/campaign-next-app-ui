@@ -1,11 +1,9 @@
 "use client";
 
-import { useCampaign } from "../campaign-provider";
-import { useFormspree } from "../../hooks/use-formspree";
-import { env } from "../../lib/env";
-import { Button } from "../ui/button";
-import { Input } from "../ui/input";
-import { Separator } from "../ui/separator";
+import { useCampaign, useFormspree, env } from "@carlosburroughs/campaign-next-app-kit";
+import { Button } from "../../primitives/button";
+import { Input } from "../../primitives/input";
+import { Separator } from "../../primitives/separator";
 import { FadeIn } from "../fade-in";
 
 export function SiteFooter() {

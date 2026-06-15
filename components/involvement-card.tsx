@@ -1,6 +1,6 @@
 import type { LucideIcon } from "lucide-react";
-import { Card, CardContent } from "./ui/card";
-import { Button } from "./ui/button";
+import { Card, CardContent } from "../primitives/card";
+import { Button } from "../primitives/button";
 
 type Action =
   | { type: "link"; href: string; label: string }

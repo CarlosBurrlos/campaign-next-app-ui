@@ -1,12 +1,10 @@
 "use client";
 
-import { useCampaign } from "../campaign-provider";
-import { useFormspree } from "../../hooks/use-formspree";
-import { env } from "../../lib/env";
+import { useCampaign, useFormspree, env } from "@carlosburroughs/campaign-next-app-kit";
 import { StatusTracker } from "../status-tracker";
-import { Button } from "../ui/button";
-import { Input } from "../ui/input";
-import { Label } from "../ui/label";
+import { Button } from "../../primitives/button";
+import { Input } from "../../primitives/input";
+import { Label } from "../../primitives/label";
 import Image from "next/image";
 import { DollarSign } from "lucide-react";
 import { motion } from "framer-motion";

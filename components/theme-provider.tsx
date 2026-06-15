@@ -1,6 +1,6 @@
 "use client";
 
-import type { Theme } from "../lib/types/theme";
+import type { Theme } from "@carlosburroughs/campaign-next-app-kit";
 
 export function ThemeProvider({ theme, children }: { theme: Theme; children: React.ReactNode }) {
   const vars = {

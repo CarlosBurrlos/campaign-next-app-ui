@@ -1,4 +1,4 @@
-import type { ContentBlock } from "../content/types";
+import type { ContentBlock } from "@carlosburroughs/campaign-next-app-kit";
 import Image from "next/image";
 
 type Props = {

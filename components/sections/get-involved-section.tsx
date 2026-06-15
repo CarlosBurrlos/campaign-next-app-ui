@@ -1,8 +1,6 @@
 "use client";
 
-import { useCampaign } from "../campaign-provider";
-import { shareOrFallback } from "../../lib/share";
-import { env } from "../../lib/env";
+import { useCampaign, shareOrFallback, env } from "@carlosburroughs/campaign-next-app-kit";
 import { InvolvementCard } from "../involvement-card";
 import { VolunteerDialog } from "../volunteer-dialog";
 import { SignRequestDialog } from "../sign-request-dialog";

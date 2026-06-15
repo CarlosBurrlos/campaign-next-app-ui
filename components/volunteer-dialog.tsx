@@ -1,15 +1,15 @@
 "use client";
 
-import { useFormspree } from "../hooks/use-formspree";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
+import { useFormspree } from "@carlosburroughs/campaign-next-app-kit";
+import { Button } from "../primitives/button";
+import { Input } from "../primitives/input";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogDescription,
-} from "./ui/dialog";
+} from "../primitives/dialog";
 
 type Props = {
   open: boolean;

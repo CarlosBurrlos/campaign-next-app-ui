@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import { useCampaign } from "./campaign-provider";
-import { Button } from "./ui/button";
-import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
+import { useCampaign } from "@carlosburroughs/campaign-next-app-kit";
+import { Button } from "../primitives/button";
+import { Popover, PopoverContent, PopoverTrigger } from "../primitives/popover";
 import { Bell, Calendar, Download } from "lucide-react";
 import { useEffect, useState } from "react";
 

@@ -1,7 +1,7 @@
 "use client";
 
-import { useCampaign } from "../campaign-provider";
-import { Card, CardContent } from "../ui/card";
+import { useCampaign } from "@carlosburroughs/campaign-next-app-kit";
+import { Card, CardContent } from "../../primitives/card";
 import { Calendar } from "lucide-react";
 
 export function CampaignTimelineSection() {
