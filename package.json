@@ -1,0 +1,19 @@
+{
+  "name": "@carlosburroughs/campaign-next-app-ui",
+  "version": "1.0.0",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "components",
+    "primitives",
+    "pages",
+    "index.ts"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "next": "*",
+    "@carlosburroughs/campaign-next-app-kit": "*"
+  }
+}
