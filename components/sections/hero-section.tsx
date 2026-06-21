@@ -16,6 +16,7 @@ export function HeroSection() {
   const stayConnected = useFormspree(env.formspree.stayConnected);
 
   const [firstHalf, secondHalf] = splitTagline(candidate.tagline);
+  const activeHeadshot = candidate.headshot.find(h => h.isActive)?.image;
 
   return (
     <section className="relative min-h-[85vh] md:min-h-[90vh] py-10 md:py-12 overflow-x-clip bg-gradient-to-br from-amber-50 via-white to-slate-100">
@@ -57,15 +58,17 @@ export function HeroSection() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
             <div className="relative aspect-[3/4] max-h-[640px] max-w-sm md:max-w-none mx-auto rounded-sm overflow-hidden">
-              <Image
-                src={candidate.headshot.src}
-                alt={candidate.headshot.alt}
-                fill
-                className="object-cover"
-                priority={candidate.headshot.priority}
-                placeholder={candidate.headshot.blurDataURL ? "blur" : "empty"}
-                blurDataURL={candidate.headshot.blurDataURL}
-              />
+              {activeHeadshot && (
+                <Image
+                  src={activeHeadshot.src}
+                  alt={activeHeadshot.alt}
+                  fill
+                  className="object-cover"
+                  priority={activeHeadshot.priority}
+                  placeholder={activeHeadshot.blurDataURL ? "blur" : "empty"}
+                  blurDataURL={activeHeadshot.blurDataURL}
+                />
+              )}
             </div>
           </motion.div>
 
