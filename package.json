@@ -1,5 +1,5 @@
 {
-  "name": "@carlosburroughs/campaign-next-app-ui",
+  "name": "@carlosburrlos/campaign-next-app-ui",
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
     "react": "*",
     "react-dom": "*",
     "next": "*",
-    "@carlosburroughs/campaign-next-app-kit": "*"
+    "@carlosburrlos/campaign-next-app-kit": "*"
   }
 }
