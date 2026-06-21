@@ -1,6 +1,6 @@
 "use client";
 
-import { useCampaign, useFormspree, env } from "@carlosburroughs/campaign-next-app-kit";
+import { useCampaign, useFormspree, env } from "@carlosburrlos/campaign-next-app-kit";
 import { StatusTracker } from "../status-tracker";
 import { Button } from "../../primitives/button";
 import { Input } from "../../primitives/input";

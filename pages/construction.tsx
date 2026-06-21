@@ -1,6 +1,6 @@
 "use client";
 
-import { useCampaign, env, useFormspree } from "@carlosburroughs/campaign-next-app-kit";
+import { useCampaign, env, useFormspree } from "@carlosburrlos/campaign-next-app-kit";
 import { ElectionCountdown } from "../../components/election-countdown";
 import { Button } from "../../primitives/button";
 import { Input } from "../../primitives/input";

@@ -1,6 +1,6 @@
 "use client";
 
-import { useCampaign } from "@carlosburroughs/campaign-next-app-kit";
+import { useCampaign } from "@carlosburrlos/campaign-next-app-kit";
 import { ContentBlockRenderer } from "../content-block-renderer";
 import { EndorsementCard } from "../endorsement-card";
 import { FadeIn, FadeInStagger, FadeInItem } from "../fade-in";

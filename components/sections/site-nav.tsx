@@ -1,6 +1,6 @@
 "use client";
 
-import { useCampaign, shareOrFallback } from "@carlosburroughs/campaign-next-app-kit";
+import { useCampaign, shareOrFallback } from "@carlosburrlos/campaign-next-app-kit";
 import { Button } from "../../primitives/button";
 import Image from "next/image";
 import { Facebook, Share2 } from "lucide-react";

@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { cn } from "@carlosburroughs/campaign-next-app-kit"
+import { cn } from "@carlosburrlos/campaign-next-app-kit"
 
 function Textarea({ className, ...props }: React.ComponentProps<"textarea">) {
   return (

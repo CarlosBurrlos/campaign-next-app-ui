@@ -1,6 +1,6 @@
 "use client";
 
-import { useFormspree } from "@carlosburroughs/campaign-next-app-kit";
+import { useFormspree } from "@carlosburrlos/campaign-next-app-kit";
 import { Button } from "../primitives/button";
 import { Input } from "../primitives/input";
 import {

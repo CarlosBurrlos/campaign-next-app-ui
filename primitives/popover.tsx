@@ -3,7 +3,7 @@
 import * as React from "react"
 import { Popover as PopoverPrimitive } from "radix-ui"
 
-import { cn } from "@carlosburroughs/campaign-next-app-kit"
+import { cn } from "@carlosburrlos/campaign-next-app-kit"
 
 function Popover({
   ...props

@@ -1,6 +1,6 @@
 "use client";
 
-import { useCampaign } from "@carlosburroughs/campaign-next-app-kit";
+import { useCampaign } from "@carlosburrlos/campaign-next-app-kit";
 import { Card, CardContent } from "../../primitives/card";
 import { Calendar } from "lucide-react";
 
